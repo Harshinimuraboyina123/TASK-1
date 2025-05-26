@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travel Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      text-align: center;
+    }
+    h1 {
+      color: #2e8b57;
+      margin-top: 30px;
+    }
+    .place {
+      margin: 20px;
+    }
+    img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #2e8b57;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #246b45;
+    }
+  </style>
+  <script>
+    function showMessage() {
+      alert("Thanks for visiting the Travel Gallery!");
+    }
+  </script>
+</head>
+<body>
+  <h1>My Travel Gallery</h1>
+
+  <div class="place">
+    <h2>Kerala</h2>
+    <img src="kerela.jpg" alt="Kerala">
+  </div>
+
+  <div class="place">
+    <h2>Mysore</h2>
+    <img src="mysoore.jpg" alt="Mysore">
+  </div>
+
+  <div class="place">
+    <h2>Tirupati</h2>
+    <img src="tirupati.jpg" alt="Tirupati">
+  </div>
+
+  <div class="place">
+    <h2>Araku Valley</h2>
+    <img src="araku-valley.jpg" alt="Araku Valley">
+  </div>
+
+  <!-- JavaScript button -->
+  <button onclick="showMessage()">Click Me!</button>
+</body>
+</html>
